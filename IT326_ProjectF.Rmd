@@ -1,0 +1,45 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+setwd("/Users/sara/Desktop/R language")
+Dataset<-read.csv("/Users/sara/Desktop/R language/data.csv"
+ 
+```
+
+## The Goal
+
+The goal of collecting this dataset is to use it to train a machine learning model that can predict whether students will continue to go to college or not. This model can then be used to identify students who are at risk of dropping out and provide them with targeted interventions. By understanding the factors that are most important for predicting whether a student will continue to go to college, we can improve college completion rates.
+
+## The Source
+
+Kaggle.com
+
+## URL :
+
+<https://www.kaggle.com/datasets/saddamazyazy/go-to-college-dataset>
+
+## General information
+
+-   Number of attributes : 11
+-   Number of rows (objects) : 1000
+-   The class label: The class label in our project is the attribute "will_go_to_college". This attribute is binary, meaning that it can take on two values: True for yes or False for no The value of this attribute will be the target variable that we are trying to predict during our project.
+
+------------------------------------------------------------------------
+
+|                       |                                                            |         |                                     |
+|-----------------|---------------------|-----------------|-----------------|
+| Attribute             | Description                                                | Type    | Possible values                     |
+| type_school           | The type of school the student attends                     | Nominal | Academic / Vocational               |
+| school_accreditation  | The quality if school                                      | Binary  | A / B (A is better than B)          |
+| gender                | The student's gender                                       | Nominal | Male / Femlae                       |
+| interest              | The student's interest in going to colleege                | Nominal | Very interested / Uncertain / Other |
+| residence             | The student's residence                                    | Nominal | Urban / Rural                       |
+| parent_age            | The age of the student's parents                           | Numeric | 40 - 65                             |
+| parent_salary         | The monthly salary of the student's parents in IDR/Rupiah. | Numeric | 1000K - 10M                         |
+| house_area            | The size of the student's house in meter square            | Numeric | 20 - 120                            |
+| average_grades        | The student's average grades in school.                    | Numeric | 75 - 98                             |
+| parent_was_in_college | Whether the student's parents attended college.            | Binary  | True - False                        |
+| will_go_to_college    | Whether the student plans to go to college.                | Binary  | True - False                        |
