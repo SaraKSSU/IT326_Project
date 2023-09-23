@@ -5,7 +5,7 @@ output: html_notebook
 
 ```{r}
 setwd("/Users/sara/Desktop/R language")
-Dataset<-read.csv("/Users/sara/Desktop/R language/data.csv"
+Dataset<-read.csv("/Users/sara/Desktop/R language/data.csv")
  
 ```
 
